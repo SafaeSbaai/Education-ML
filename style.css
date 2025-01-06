@@ -1,0 +1,135 @@
+body {
+    padding-top: 60px;
+  }
+
+  .navbar {
+    background-color: #e767f6;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .navbar-nav .nav-link {
+    color: #0e0a0a;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #131212;
+  }
+
+  /* Custom styles */
+  .navbar-brand img {
+    margin-right: 5px;
+  }
+
+  .navbar-brand .text-warning {
+    font-size: 20px;
+    
+  }
+  .carousel-item img{
+    width: 100%;
+    height: 70vh;
+  }
+  .About h1{
+    font-family: 'Kaushan Script', cursive;
+    color: blueviolet;
+    text-align: center;
+    
+  }
+   .container p{
+    
+    text-align: justify;
+  }
+  .Courses h1{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(14, 151, 193);
+    text-align: center;
+    
+
+  }
+  .container card{
+    align-content: center;
+
+  }
+.contect h1{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(14, 151, 193);
+    text-align: center;
+
+}
+.inner{
+  overflow: hidden;
+}
+.inner {
+  transition-duration: all 2.5s ease;
+}
+.inner:hover {
+  transform: scale(1.5);
+}
+.submitinfo{
+  color: red;
+}
+#form{
+  background-color: rgb(196, 248, 248);
+}
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* S'adapte pour remplir tout l'écran */
+  z-index: -1; /* Place la vidéo derrière le contenu */
+}
+a:hover{
+  background-color: #3e0244;
+  border-radius: 10px;
+}
+#h1a{
+  text-align: center;
+animation: animationh1 2s ease-in-out infinite;
+color: #1109f5;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+@keyframes animationh1 {
+  0%{
+    opacity: 0;
+    transform: translateX(0);
+    transition: all 2s ease-in-out ;
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(50px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}
+#h1acc{
+  text-align: center;
+  color: rgb(61, 2, 46);
+  text-shadow: 2px 2px 5px rgb(61, 2, 46);
+  animation: fadeIn 3s ease-in-out infinite ;
+}
+#h1cc{
+  
+  text-align: center;
+  padding: 30px;
+  margin: 100px;
+  width: 60%;
+  border: 2px solid rgb(61, 2, 46);
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgb(61, 2, 46);
+}
